@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0b0b0c;
+    color: hsl(0, 0%, 85%);
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items: flex-start;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 1em;
+}
+
+table th {
+    border: 1px solid #6b4eae;
+}
+
+#table-data :is(td, tr) {
+    padding: 2px;
+}
+
+#table-info :is(td, tr) {
+    padding: 0.5em 2em;
+}
+
+table :is(td, tr) {
+    border: 1px solid hsl(0, 0%, 85%);
+}
+
+#table-info td:last-child {
+    width: 22em;
+}
+
+#table-info tr td:first-child {
+    background-color: #6b4eae;
+    width: 16em;
+}
+
+fieldset {
+    border: none;
+}
+
+label {
+    display: block;
+}
+
+input {
+    outline: 0;
+    background-color: transparent;
+    border: 1px solid #6b4eae;
+    padding: 0.5em 1em;
+    color: hsl(0, 0%, 85%);
+}
+
+input:focus {
+    background-color: #6b4eae18;
+}
+
+table thead tr {
+    background-color: #6b4eae;
+}
