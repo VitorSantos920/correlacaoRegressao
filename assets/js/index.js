@@ -176,7 +176,7 @@ function calculo(numeroLinhas, dadosAtuais) {
             intensidade = 'fraco';
         } else if (r >= -0.8 && r < -0.5) {
             intensidade = 'médio';
-        } else if (r >= 1 && r < -0.8) {
+        } else if (r >= -1 && r < -0.8) {
             intensidade = 'forte';
         }
 
