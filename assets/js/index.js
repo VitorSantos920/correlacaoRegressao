@@ -263,7 +263,7 @@ function calculo(numeroLinhas, dadosAtuais) {
         ]);
 
         let dadosOrdenados = dadosAtuais.slice().sort((a, b) => a.x - b.x);
-        dadosOrdenados = dadosAtuais.slice().sort((a, b) => a.y - b.y);
+        dadosOrdenados = dadosOrdenados.slice().sort((a, b) => a.y - b.y);
 
         grafico(dadosOrdenados);
     } else {
